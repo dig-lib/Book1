@@ -7,6 +7,63 @@
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
     "width" : 1508,
+    "id" : "https://dig-lib.github.io/Book1/images/Image_2/canvas/",
+    "label" : {
+      "none" : [ "Image_2" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://dig-lib.github.io/Book1/images/Image_2/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://dig-lib.github.io/Book1/images/Image_2/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 48,
+              "height" : 35
+            }, {
+              "width" : 95,
+              "height" : 69
+            }, {
+              "width" : 189,
+              "height" : 137
+            }, {
+              "width" : 377,
+              "height" : 273
+            }, {
+              "width" : 754,
+              "height" : 546
+            }, {
+              "width" : 1508,
+              "height" : 1092
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 1508,
+            "@id" : "https://dig-lib.github.io/Book1/images/Image_2",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 1092
+          } ],
+          "format" : "image/jpeg",
+          "width" : 1508,
+          "id" : "https://dig-lib.github.io/Book1/images/Image_2/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 1092
+        },
+        "target" : "https://dig-lib.github.io/Book1/images/Image_2/canvas/"
+      } ]
+    } ],
+    "height" : 1092
+  }, {
+    "width" : 1508,
     "id" : "https://dig-lib.github.io/Book1/images/Image_1/canvas/",
     "label" : {
       "none" : [ "Image_1" ]

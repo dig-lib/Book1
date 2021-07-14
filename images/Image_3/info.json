@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 48,
+    "height" : 35
+  }, {
+    "width" : 95,
+    "height" : 69
+  }, {
+    "width" : 189,
+    "height" : 137
+  }, {
+    "width" : 377,
+    "height" : 273
+  }, {
+    "width" : 754,
+    "height" : 546
+  }, {
+    "width" : 1508,
+    "height" : 1092
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 1508,
+  "@id" : "https://dig-lib.github.io/Book1/images/Image_3",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 1092
+}
